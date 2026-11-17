@@ -1,0 +1,7 @@
+^LICENSE\.md$
+^\.github$
+^README\.Rmd$
+^\.zenodo\.json$
+^CITATION\.cff$
+^.*\.Rproj$
+^\.Rproj\.user$

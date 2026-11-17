@@ -1,0 +1,42 @@
+Package: pathwaydepth
+Title: Depth Features for Spatial Pathway Graphs
+Version: 0.1.0
+Authors@R: c(
+    person("Sagnik", "Bhadury", email = "bhadury@umich.edu",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0003-2966-0678")),
+    person("Ashley P.", "Tsang", role = "aut"),
+    person("Dipankar", "Ray", role = "ctb"),
+    person("Kiran", "Lagisetty", role = "ctb"),
+    person("Arvind", "Rao", role = "aut"))
+Description: Converts the edge weights of a small weighted graph into
+    edge-level depth features under two reference frames: the distribution of
+    the same edge across a reference cohort (population-referenced depth) and
+    the distribution of all edges within the same graph (within-sample depth).
+    The depth is the univariate halfspace (Tukey) depth scaled to the unit
+    interval, stabilised by subsampling the reference set. The package also
+    provides the graph completion step, patient-level data splitting, a
+    random forest classifier tuned on out-of-bag predictions, and the
+    evaluation tools used to compare lung adenocarcinoma with lung squamous
+    cell carcinoma on spatial pathway graphs derived from The Cancer Genome
+    Atlas histology slides. The lung graphs are not included, because the
+    licence of the data they are derived from does not allow derivatives to
+    be distributed; simulated graphs are provided for examples.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    pROC,
+    ranger,
+    softImpute,
+    stats,
+    utils
+Suggests:
+    fda.usc,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+URL: https://github.com/sagnikbhadury/pathwaydepth
+BugReports: https://github.com/sagnikbhadury/pathwaydepth/issues
