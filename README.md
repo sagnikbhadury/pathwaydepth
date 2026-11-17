@@ -303,6 +303,9 @@ Rscript inst/analysis/04_rules_and_checks.R results
 Rscript inst/analysis/05_figures.R          results figures
 Rscript inst/analysis/06_original_figures.R results <figure script> figures_original
 Rscript inst/analysis/08_presence_vs_proximity.R results   # Bayesian two-part model (brms, cmdstanr)
+Rscript inst/analysis/09_overview_inputs.R results         # tables for the overview figure
+python  inst/analysis/10_overview_figure.py Figure_Pipeline.pdf  # overview figure (matplotlib, PyMuPDF)
+python  inst/analysis/11_twopart_figure.py results Figure_TwoPart.pdf
 ```
 
 Script 03 needs the STAR gene counts of TCGA-LUAD and TCGA-LUSC from the
