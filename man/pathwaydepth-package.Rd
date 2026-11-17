@@ -17,7 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Sagnik Bhadury \email{bhadury@umich.edu} (\href{https://orcid.org/0009-0003-2966-0678}{ORCID})
+\strong{Maintainer}: Sagnik Bhadury \email{bhadury@upenn.edu} (\href{https://orcid.org/0009-0003-2966-0678}{ORCID})
 
 Authors:
 \itemize{

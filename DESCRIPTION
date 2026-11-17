@@ -2,7 +2,7 @@ Package: pathwaydepth
 Title: Depth Features for Spatial Pathway Graphs
 Version: 0.1.0
 Authors@R: c(
-    person("Sagnik", "Bhadury", email = "bhadury@umich.edu",
+    person("Sagnik", "Bhadury", email = "bhadury@upenn.edu",
            role = c("aut", "cre"),
            comment = c(ORCID = "0009-0003-2966-0678")),
     person("Ashley P.", "Tsang", role = "aut"),
