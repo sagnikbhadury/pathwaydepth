@@ -1,6 +1,6 @@
 # pathwaydepth
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24324732.svg)](https://doi.org/10.5281/zenodo.24324732)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24326093.svg)](https://doi.org/10.5281/zenodo.24326093)
 
 Depth features for small weighted graphs, with the tools to classify two
 groups of graphs, evaluate the classifiers honestly, and see what the features
@@ -314,7 +314,7 @@ Genomic Data Commons; they are not redistributed here.
 ## Citation
 
 Bhadury S, Tsang AP, Rao A. pathwaydepth: Depth Features for Spatial Pathway
-Graphs (version 0.1.0). Zenodo, 2026. https://doi.org/10.5281/zenodo.24324732
+Graphs (version 0.1.1). Zenodo, 2026. https://doi.org/10.5281/zenodo.24326093
 
 ## Licence
 
