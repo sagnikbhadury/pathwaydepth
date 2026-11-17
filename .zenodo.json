@@ -1,0 +1,17 @@
+{
+  "title": "pathwaydepth: Depth Features for Spatial Pathway Graphs",
+  "upload_type": "software",
+  "description": "<p>R package that converts the edge weights of small weighted graphs into edge-level depth features under two reference frames (the same edge across a reference cohort, and all edges within the same graph), with patient-level data splitting, a random forest classifier tuned on out-of-bag predictions, evaluation with confidence intervals and paired comparison, decision-rule extraction, and plotting functions. It contains the analysis scripts of the article &quot;Depth features of spatial pathway graphs from histology-predicted transcriptomics in lung adenocarcinoma and squamous cell carcinoma&quot;.</p><p>The archive contains code only. The spatial pathway graphs analysed in the article are not distributed, because they are derived from the DeepSpot predicted spatial transcriptomics of TCGA slides, whose licence (CC BY-NC-ND 4.0) does not allow derivatives to be distributed. Simulated graphs are provided for the examples.</p>",
+  "creators": [
+    {"name": "Bhadury, Sagnik", "affiliation": "University of Michigan", "orcid": "0009-0003-2966-0678"},
+    {"name": "Tsang, Ashley P.", "affiliation": "University of Michigan"},
+    {"name": "Rao, Arvind", "affiliation": "University of Michigan"}
+  ],
+  "contributors": [
+    {"name": "Ray, Dipankar", "affiliation": "University of Michigan", "type": "Supervisor"},
+    {"name": "Lagisetty, Kiran", "affiliation": "University of Michigan", "type": "Supervisor"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["data depth", "spatial transcriptomics", "pathway graphs", "random forest", "lung cancer", "R package"]
+}
