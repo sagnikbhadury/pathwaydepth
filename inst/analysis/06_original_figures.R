@@ -60,6 +60,7 @@ pB <- pairs_of(rules_B, "Patient Referenced Depth")
 
 setwd(args[3])
 source(fig_script)
+output_dir <- normalizePath(output_dir)   # the cairo device needs an absolute path
 # The heatmap function of the original script reads these from the global
 # environment instead of from its arguments.
 Depth_A_train <- prim$feats$popdepth$tr; Depth_A_test <- prim$feats$popdepth$te
