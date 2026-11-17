@@ -302,6 +302,7 @@ Rscript inst/analysis/03_bulk_baselines.R   results <folder with GDC count files
 Rscript inst/analysis/04_rules_and_checks.R results
 Rscript inst/analysis/05_figures.R          results figures
 Rscript inst/analysis/06_original_figures.R results <figure script> figures_original
+Rscript inst/analysis/08_presence_vs_proximity.R results   # Bayesian two-part model (brms, cmdstanr)
 ```
 
 Script 03 needs the STAR gene counts of TCGA-LUAD and TCGA-LUSC from the
