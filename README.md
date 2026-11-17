@@ -306,6 +306,8 @@ Rscript inst/analysis/08_presence_vs_proximity.R results   # Bayesian two-part m
 Rscript inst/analysis/09_overview_inputs.R results         # tables for the overview figure
 python  inst/analysis/10_overview_figure.py Figure_Pipeline.pdf  # overview figure (matplotlib, PyMuPDF)
 python  inst/analysis/11_twopart_figure.py results Figure_TwoPart.pdf
+python  inst/analysis/12_pseudobulk_extract.py <DeepSpot TCGA_lung folder> pseudobulk.csv.gz  # needs the DeepSpot files
+Rscript inst/analysis/13_pseudobulk_baseline.R results pseudobulk.csv.gz 50   # pseudo-bulk baseline (response to review)
 ```
 
 Script 03 needs the STAR gene counts of TCGA-LUAD and TCGA-LUSC from the
