@@ -6,7 +6,7 @@ Depth features for small weighted graphs, with the tools to classify two
 groups of graphs, evaluate the classifiers honestly, and see what the features
 mean. The package accompanies
 
-> Bhadury S, Tsang AP, Ray D, Lagisetty K, Rao A. Depth features of spatial
+> Bhadury S, Tsang AP, Ray D, Lagisetty K, Rao A. Functional depth features of spatial
 > pathway graphs from histology-predicted transcriptomics in lung
 > adenocarcinoma and squamous cell carcinoma. Revised manuscript, 2026.
 
