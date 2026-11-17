@@ -1,5 +1,7 @@
 # pathwaydepth
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24324732.svg)](https://doi.org/10.5281/zenodo.24324732)
+
 Depth features for small weighted graphs, with the tools to classify two
 groups of graphs, evaluate the classifiers honestly, and see what the features
 mean. The package accompanies
@@ -304,6 +306,11 @@ Rscript inst/analysis/06_original_figures.R results <figure script> figures_orig
 
 Script 03 needs the STAR gene counts of TCGA-LUAD and TCGA-LUSC from the
 Genomic Data Commons; they are not redistributed here.
+
+## Citation
+
+Bhadury S, Tsang AP, Rao A. pathwaydepth: Depth Features for Spatial Pathway
+Graphs (version 0.1.0). Zenodo, 2026. https://doi.org/10.5281/zenodo.24324732
 
 ## Licence
 
