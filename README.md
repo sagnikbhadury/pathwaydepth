@@ -50,6 +50,7 @@ version of the within-sample feature.
 | Compare groups edge by edge | `compare_groups()` |
 | Decision rules | `extract_rules()`, `rule_membership()`, `cooccurrence()` |
 | Figures | `plot_presence()`, `plot_roc()`, `plot_intervals()`, `plot_volcano()`, `plot_depth_vs_weight()`, `plot_importance()`, `plot_rule_lengths()`, `plot_cooccurrence()` |
+| Helpers | `halfspace_depth()`, `subsample_depth()` (the depth itself), `node_presence()`, `edge_names()`, `patient_id()`, `rule_matrix()`, `depth_colours()` |
 
 ## A complete analysis on simulated graphs
 
