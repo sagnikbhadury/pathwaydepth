@@ -73,3 +73,23 @@ if (requireNamespace("fda.usc", quietly = TRUE)) {
   cat("max |halfspace_depth - 2 * (FM1 - 1/2)| =", max(abs(ours - 2 * (fm1 - 0.5))), "\n")
   cat("range of depth:", range(ours), "\n")
 }
+
+## (c) coverage of the rules of the first 20 trees: distinct rules, longest
+##     rule, features used, and how many of the 50 most important features
+##     (permutation importance of the whole forest) occur in the rules
+cov <- do.call(rbind, lapply(c("popdepth", "within"), function(k) {
+  fit <- prim$fits[[k]]
+  r <- extract_rules(fit, trees = 1:20)
+  key <- vapply(seq_len(nrow(r)), function(i) paste(
+    r$features[[i]], format(r$lower[[i]], digits = 17),
+    format(r$upper[[i]], digits = 17), r$prediction[i], collapse = "|"), "")
+  imp <- sort(fit$forest$variable.importance, decreasing = TRUE)
+  used <- unique(unlist(r$features))
+  data.frame(model = k, trees_total = fit$forest$num.trees, trees_used = 20,
+             n_rules = nrow(r), n_distinct = length(unique(key)),
+             max_conditions = max(r$n_conditions),
+             n_features = length(imp), n_features_used = length(used),
+             top50_used = sum(names(imp)[1:50] %in% used))
+}))
+write.csv(cov, file.path(out_dir, "rule_coverage.csv"), row.names = FALSE)
+print(cov)
