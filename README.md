@@ -309,6 +309,9 @@ python  inst/analysis/10_overview_figure.py Figure_Pipeline.pdf  # overview figu
 python  inst/analysis/11_twopart_figure.py results Figure_TwoPart.pdf
 python  inst/analysis/12_pseudobulk_extract.py <DeepSpot TCGA_lung folder> pseudobulk.csv.gz  # needs the DeepSpot files
 Rscript inst/analysis/13_pseudobulk_baseline.R results pseudobulk.csv.gz 50   # pseudo-bulk baseline (response to review)
+Rscript inst/analysis/14_fusion.R results results/graphs.rds 50   # early and late fusion of the representations
+Rscript inst/analysis/15_unique_pairs.R results                   # pairs distinguished by one representation only
+python  inst/analysis/16_fusion_figure.py results Figure_Fusion.pdf
 ```
 
 Script 03 needs the STAR gene counts of TCGA-LUAD and TCGA-LUSC from the
