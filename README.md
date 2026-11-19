@@ -9,6 +9,7 @@ mean. The package accompanies
 > Bhadury S, Tsang AP, Ray D, Lagisetty K, Rao A. Functional depth features of spatial
 > pathway graphs from histology-predicted transcriptomics in lung
 > adenocarcinoma and squamous cell carcinoma. Revised manuscript, 2026.
+
 > Sagnik Bhadury, Ashley P. Tsang, Dipankar Ray et al. Functional Depth Biomarkers Distinguish Lung Squamous Cell Carcinoma from Lung Adenocarcinoma, 13 July 2026, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-9347794/v1]
 
 In that article each tumour slide is summarised by a graph on 14 signalling
